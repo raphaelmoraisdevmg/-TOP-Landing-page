@@ -3,6 +3,20 @@
   padding: 0;
   font-family: Roboto;
 }
+/*begining of heading styles*/
+
+/* <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;        //still try find a way to use this code if I cant i will delete
+  font-style: normal;             prior to the final release 
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
 #header-area{
   background-color: #1F2937;
   color:white;
@@ -12,6 +26,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  padding: 3%;
 }
 #logo-area{
   display: flex;
@@ -39,3 +54,44 @@ a{
   text-decoration: none;
   color: white;
 }
+/*end of heading styles*/
+
+/* begning of main styles*/
+#main-area{
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  padding: 5%;
+}
+#right-side-main,#left-side-main{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  justify-content: center;
+  align-items: left;
+}
+
+.singup-button{
+  background-color: #3882f6;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+}
+/*end of main styles*/
+
+/* .pictures-holder{
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+    gap:10;                            still in development
+}
+.picture-item{
+ }
+img{
+  width:300px;
+  height:auto;
+} */
